@@ -1,0 +1,85 @@
+nav
+{   
+    padding: 20px;
+    grid-area: nav;
+    text-align: center;
+    background: rgba(57, 120, 255, 0.856);
+    margin-bottom: 250px;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+    border-right: solid 1px black ;
+    bottom: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    .menu
+    {
+    list-style: none;
+    display: flex;
+    justify-content: space space-around;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        .menu li:hover
+        {
+        background-color: #1919b3f3;
+            .menu li a:hover
+            {
+            color: rgb(213, 247, 23);
+            }
+        }
+        .menu li a
+        {
+        display: inline-block;
+        padding: 15px 20px;
+        text-decoration: none;
+        -webkit-text-stroke: 1px black;
+        color: white;
+        }
+        .submenu
+        {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 1293px;
+        list-style: none;
+        background: grey;
+        padding-left: 32px;
+        padding-right: 34px;
+        border: solid 1px black;
+        }
+        .submenudos
+        {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 1595px;
+        list-style: none;
+        background: grey;
+        padding-left: 53px;
+        padding-right: 69px;
+        padding-bottom: 14px;
+        border: solid 1px black;
+        color: white;
+            .submenudos li:hover
+            {
+            background-color: rgba(25, 25, 179, 0.952);
+                .submenu li a:hover
+                {
+                color: rgb(213, 247, 23);
+                }
+            }
+        }
+        .menu li:hover .submenu
+        {
+        display: inline-block;
+        }
+        .menu li:hover .submenudos
+        {
+        display: block;
+        }
+        .comprar
+        {   
+    background-color: red;
+        }      
+    }
+}

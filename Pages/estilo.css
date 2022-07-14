@@ -206,7 +206,7 @@ form
 .nave
 {   
     padding: 20px;
-    grid-area: nav;@media screen
+    grid-area: nav;
     text-align: center;
     background: rgba(57, 120, 255, 0.856);
     margin-bottom: 510px;

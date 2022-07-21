@@ -7,7 +7,7 @@
 body
 {
     display: grid;
-    grid-auto-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
     "title nav"
@@ -232,7 +232,7 @@ form
 }
 /*tablet*/
 @media screen and (max-width: 768px) {
-	body{
+body{
             grid-template-columns: 1fr;
             grid-template-rows: 0.5fr 0.5fr 0.5fr;
             grid-template-areas:
@@ -241,7 +241,8 @@ form
             "main"
             "footer"
             ;
-      }
+        
+}
     nav
     {   
     

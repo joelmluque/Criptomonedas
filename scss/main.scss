@@ -49,10 +49,10 @@ a{
 .img
 {   
     background-image: url(../Imagenes/fondo3.jpg);
-    width: 120px;
+    width: 90px;
     position: absolute;
-    bottom: 810px;
-    left: 50px;
+    bottom: 620px;
+    left: 0px;
     transition: all 2s;
     &:hover
     {
@@ -170,7 +170,7 @@ ul
             display: none;
             position: absolute;
             color: black;
-            right: 1232px;
+            right: 1048px;
             background-color: black;
             li
             { 
@@ -179,8 +179,8 @@ ul
                     @extend a;
                     right: 20px;
                     color: white;
-                    padding-left: 16px;
-                    padding-right: 50px;
+                    padding-left: 21px;
+                    padding-right: 45px;
                     &:hover
                     {   
                         color: #ffe92e;
@@ -193,7 +193,7 @@ ul
             display: none;
             position: absolute;
             background-color: black;
-            left: 870px;
+            left: 686px;
             li
             {
                 a
@@ -214,6 +214,10 @@ ul
 main
 {
     grid-area: main;
+    form
+    {
+        background-color: $terciary-color;
+    }
 }
 iframe
 {
@@ -234,6 +238,20 @@ footer
                 "main"
                 "footer"
                 ;
+                .img
+                {
+                    display: none;
+                }
+                font-size: 10%;
+                .menu
+                {
+                 font-size: 20px;
+                display: inline-block;
+                .submenu
+                {
+                display: inline-block;
+                }
+        }
             
     }
         .titulo
@@ -242,6 +260,50 @@ footer
         }
         h2{
             overflow: auto;
+        }             
+    }
+
+.btc
+{
+    background-image: url(../Imagenes/btc.jpeg);
+
+    
+}
+.eth
+{
+    background-image: url(../Imagenes/eth.jpg);
+}
+.ada
+{
+    background-image: url(../Imagenes/ada.jpeg);
+}
+.mercado
+{
+    background-image: url(../Imagenes/mercado.jpg);
+}
+form
+{
+    border: solid 0.5px black;
+    padding: 1px;
+}
+@media screen and (max-width: 992px) {
+    .container{
+                grid-template-columns: 0.1fr;
+                grid-template-rows: 0.1fr 0.1fr 0.1fr;
+                grid-template-areas:
+                "menu"
+                "main"
+                "footer"
+                ;
+                .img
+                {
+                    display: none;
+                }
+            
+    }
+        .titulo
+        {
+            display: none;
         }
       body
       {
@@ -251,5 +313,15 @@ footer
         {
             display: flex;
         }
+        p
+        {
+            font-size: 20px;
+        }
+        .menu
+        {
+            font-size: 20px;
+        }
+        
       
     }
+    

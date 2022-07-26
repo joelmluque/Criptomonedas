@@ -49,10 +49,10 @@ a{
 .img
 {   
     background-image: url(../Imagenes/fondo3.jpg);
-    width: 90px;
+    width: 120px;
     position: absolute;
-    bottom: 620px;
-    left: 0px;
+    bottom: 810px;
+    left: 50px;
     transition: all 2s;
     &:hover
     {
@@ -170,7 +170,7 @@ ul
             display: none;
             position: absolute;
             color: black;
-            right: 1048px;
+            right: 1238px;
             background-color: black;
             li
             { 
@@ -193,7 +193,7 @@ ul
             display: none;
             position: absolute;
             background-color: black;
-            left: 686px;
+            left: 870px;
             li
             {
                 a

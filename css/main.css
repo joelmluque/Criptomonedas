@@ -196,6 +196,9 @@ form {
     grid-template-areas: "menu" "main" "footer"; }
     .container .img {
       display: none; }
+    .container form {
+      font-size: 14px;
+      padding: 2px; }
   .titulo {
     display: none; }
   body {

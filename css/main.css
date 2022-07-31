@@ -156,18 +156,21 @@ footer {
   text-align: center; }
 
 @media screen and (max-width: 768px) {
-  body {
+  .container {
     grid-template-columns: 0.1fr;
     grid-template-rows: 0.3fr 0.3fr 0.3fr;
     grid-template-areas: "menu" "main" "footer";
     font-size: 10%; }
-    body .img {
+    .container .img {
       display: none; }
-    body .menu {
+    .container .menu {
       font-size: 20px;
       display: inline-block; }
-      body .menu .submenu {
+      .container .menu .submenu {
         display: inline-block; }
+      .container .menu form {
+        font-size: 14px;
+        padding: 2px; }
   .titulo {
     display: none; }
   h2 {

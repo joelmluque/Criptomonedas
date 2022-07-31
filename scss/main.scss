@@ -230,7 +230,7 @@ footer
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    body{
+    .container{
                 grid-template-columns: 0.1fr;
                 grid-template-rows: 0.3fr 0.3fr 0.3fr;
                 grid-template-areas:
@@ -250,6 +250,11 @@ footer
                 .submenu
                 {
                 display: inline-block;
+                }
+                form
+                {
+                    font-size: 14px;
+                    padding: 2px;
                 }
         }
             

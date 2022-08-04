@@ -79,18 +79,17 @@ a{
     50%{left: 850px;}
     75%{left: 700px;}
 }
-
-h1
-{
-    font-weight: bolder;
-    font-size: size(9);
-    text-align: center;
-}
 h2
 {
     font-weight: bolder;
     font-size: size(6);
-    background-color: $terciary-color;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    bottom: 450px;
+    margin-left: 200px;
+    color: white;
+    font-family: 'Saira', sans-serif;
 }
 h3
 {
